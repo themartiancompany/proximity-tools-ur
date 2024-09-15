@@ -1,6 +1,6 @@
 pkgbase = proximity-tools
 	pkgdesc = Proximity detection tools.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/proximity-tools
 	arch = any
@@ -9,9 +9,9 @@ pkgbase = proximity-tools
 	makedepends = make
 	depends = libcrash-bash
 	depends = android-wifi-utils
-	source = proximity-tools-8579af4a787175d03a2b244ccdab1efbfeb820f3.zip::https://github.com/themartiancompany/proximity-tools/archive/8579af4a787175d03a2b244ccdab1efbfeb820f3.zip
+	source = proximity-tools-75188036b9b39f767eff3cd995fb8a0da8ed0dd6.zip::https://github.com/themartiancompany/proximity-tools/archive/75188036b9b39f767eff3cd995fb8a0da8ed0dd6.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
 	validpgpkeys = DD6732B02E6C88E9E27E2E0D5FC6652B9D9A6C01
-	sha256sums = 472a6dad4b7ba57bd06b4600b47f363d3766a3872d136e4ba03d862811cb498a
+	sha256sums = 1028673c2b1d1fefc6f5cc8c76a52aa8500da263c231b1333b402b9f639f38a7
 
 pkgname = proximity-tools
