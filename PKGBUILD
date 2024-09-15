@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _pkg=proximity-tools
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1"
-_commit="fd7feac6d5219c2ac3f154248634f373f4ca60f2"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1.1"
+_commit="8579af4a787175d03a2b244ccdab1efbfeb820f3"
 pkgrel=1
 _pkgdesc=(
   "Proximity detection tools."
@@ -74,7 +74,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="b6e9e236b12437c16ec3d3b10643f13723440177d3125fe5a7bc4852c2693d95"
+    _sum="472a6dad4b7ba57bd06b4600b47f363d3766a3872d136e4ba03d862811cb498a"
   fi && \
     source+=(
       "${_tar}"
